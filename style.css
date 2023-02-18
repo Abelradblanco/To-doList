@@ -12,9 +12,10 @@
     max-width: 34em;
     position: absolute;
     transform: translate(-50%, -50%);
-    top: 50%;
+    top: 20%;
     left: 50%;
     color: white;
+    max-height: 10%;
   }
   input{
     appearance: none;
@@ -37,8 +38,8 @@
     color: #0b87ff;
     font-family: sans-serif;
     font-style: bold;
-    margin-top: 20%;
-    font-size: 1.5rem;
+    margin-top: 5%;
+    font-size: 1.7rem;
   }
  
 
