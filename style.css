@@ -42,19 +42,63 @@
     font-size: 1.7rem;
   }
  
-
- 
-
   #new-task {
     position: relative;
     background-color: #272525;
     padding: 1.8em 1.25em;
     border-radius: 0.3em;
     box-shadow: 0 1.25em 1.8em rgba(1, 24, 48, 0.15);
-    display: grid;
+    display: grid;  
     grid-template-columns: 9fr 3fr;
     gap: 1em;
   }
+
+  #new-task button {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    background-color: #0b87ff;
+    color: #272525;
+    outline: none;
+    border: none;
+    border-radius: 0.3em;
+    cursor: pointer;
+  }
+
+/* #new-task button {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    background-color: #0b87ff;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 0.3em;
+    cursor: pointer;
+    flex-shrink: 0;
+    padding: 15px 35px;
+} */
+
+@media (max-width: 350px) {
+  #new-task {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  #new-task button {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  #new-task input {
+    width: 100%;
+  }
+
+}
+
+
   #new-task input {
     font-family: "Poppins", sans-serif;
     font-size: 1em;
@@ -69,17 +113,7 @@
     border-color: #0b87ff;
     color: white;
   }
-  #new-task button {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-size: 1em;
-    background-color: #0b87ff;
-    color: #272525;
-    outline: none;
-    border: none;
-    border-radius: 0.3em;
-    cursor: pointer;
-  }
+ 
   #tasks {
     background-color: #272525;
     position: relative;

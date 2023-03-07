@@ -69,7 +69,7 @@ const displayTasks = () => {
   editTasks = document.getElementsByClassName("edit");
   Array.from(editTasks).forEach((element, index) => {
     element.addEventListener("click", (e) => {
-      //Stop propogation to outer elements (if removed when we click delete eventually rhw click will move to parent)
+      //Stop propagation to outer elements (if removed when we click delete eventually rhw click will move to parent)
       e.stopPropagation();
       //disable other edit buttons when one task is being edited
       disableButtons(true);
