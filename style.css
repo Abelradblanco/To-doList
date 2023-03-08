@@ -58,7 +58,7 @@
     font-weight: 500;
     font-size: 1em;
     background-color: #0b87ff;
-    color: #272525;
+    color: white;
     outline: none;
     border: none;
     border-radius: 0.3em;
@@ -79,7 +79,7 @@
     padding: 15px 35px;
 } */
 
-@media (max-width: 350px) {
+@media (max-width: 415px) {
   #new-task {
     display: flex;
     flex-wrap: wrap;
